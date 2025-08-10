@@ -1,33 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>Time line App</title>
     <link rel="icon" href="/images/time_line.png" />
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <header>
-        <button><img src="/images/night-mode.png" width="30px" height="30px"/></button>
+    <header class="head-container">
+        <button class="mode-btn-right"><img src="/images/night-mode.png" width="30px" height="30px"/></button>
         <nav></nav>
     </header>
     <section id="timeline">
-        <div id="modal">
-
+        <div id = "model">
+            <div class="timeline-item">
+                <span class="circle"></span>
+                <p>1900</p>
+            </div>
+            <div class="timeline-item">
+                <span class="circle"></span>
+                <p>1910</p>
+            </div>
+            <div class="timeline-item">
+                <span class="circle"></span>
+                <p>1920</p>
+            </div>
+            <div class="timeline-item">
+                <span class="circle"></span>
+                <p>1930</p>
+            </div>
+            <div class="timeline-item">
+                <span class="circle"></span>
+                <p>1940</p>
+            </div>
         </div>
     </section>
-    <main>
-        <div>
-            <h3>1997</h3>
-            <h3>Introduction of the First Personal Computer</h3>
+    <main class="main-container">
+        <div class="main-container-title">
+            <h1 class="main-year">1997</h1>
+            <h1>Introduction of the First Personal Computer</h1>
         </div>
-        <figure></figure>
-        <article>
+        <figure>
+            <img src="/images/computer_img.jpg" alt="computer"/>
+        </figure>
+        <article class="main-article">
             The risk personal computer, introduced in 1997,
             revolutionized the way people interacted with
             <br>
             These early systems were more affordable and
             paving the way for the digital age ad transforming various
-            <br>
+            <br><br>
             <button>Learn More</button>
         </article>
     </main>

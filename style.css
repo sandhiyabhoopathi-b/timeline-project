@@ -1,0 +1,116 @@
+/* whole html page style */
+
+html , body{
+    height : 100%;
+}
+
+/* styling header section */
+
+.mode-btn-right {
+  padding: 8px 12px;
+  background-color: #4b6cb7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  float : right;
+}
+
+.mode-btn-right:hover {
+  background-color: #35518f;
+}
+
+/* Styling Main section */
+
+.main-container{
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+}
+.main-container-title{
+    display : flex;
+    justify-content : space-evenly;
+}
+
+.main-year{
+    color : #1e90ff;
+}
+
+.main-article button{
+    background-color : #1e90ff;
+    color : white;
+    border-radius : 5px;
+}
+
+/* styling time line part */
+
+#timeline{
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+#model {
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : space-between;
+    position : relative;
+    padding:20px;
+    width : 80%;
+}
+
+#model::before {
+    content: '';
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    z-index: 0;
+}
+
+.timeline-item{
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    position: relative;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    background: #3498db;
+    border-radius: 50%;
+    position: relative;
+    z-index:1;
+}
+
+/* tablet (768px - 1023px) */
+
+@media (min-width : 768px) and (max-width: 1023px){
+    #model{
+        width : 80%;
+    }
+}
+
+/* desktop (>1024px) */
+
+@media (min-width : 1024px){
+    #model{
+        width: 80%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
