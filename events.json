@@ -1,0 +1,58 @@
+[
+  {
+    "year" : "1997",
+    "title" : "Introduction of the First Personal Computer",
+    "description" : "The RISK personal computer, introduced in 1997, revolutionized the way people interacted with technology. Affordable and powerful, it transformed the digital landscape.",
+    "imageURL" : "/images/computer_img.jpg",
+    "category" : "Technology"
+  },
+  {
+    "year" : "2000",
+    "title" : "Y2K Bug Scare",
+    "description" : "The Y2K bug created widespread concern about computer systems failing at the turn of the millennium.",
+    "imageURL" : "/images/Y2K_Bug_scare.jpg",
+    "category" : "Technology"
+  },
+  {
+    "year" : "2004",
+    "title" : "Launch of Facebook",
+    "description" : "Facebook was launched, connection people across the globe through social networking.",
+    "imageURL" : "/images/facebook.jpg",
+    "category" : "Social Media"
+  },
+  {
+    "year" : "2007",
+    "title" : "First iphone Release",
+    "description" : "Apple released the first iphone, changing the smartphone industry forever.",
+    "imageURL" : "/images/first_iphone.jpg",
+    "category" : "Technology"
+  },
+  {
+    "year" : "2010",
+    "title" : "Instagram Launch",
+    "description" : "Instagram launched as a simple photo-sharing app, later becoming social media giant.",
+    "imageURL" : "/images/instagram.jpg",
+    "category" : "Social Media"
+  },
+  {
+    "year" : "2015",
+    "title" : "AI Breakthroughs",
+    "description" : "Artificial Intelligence systems like AlphaGO demonstrated capabilities beyond human experts.",
+    "imageURL" : "/images/AI.jpg",
+    "category" : "Technology"
+  },
+  {
+    "year" : "2020",
+    "title" : "COVID-19 Pandemic",
+    "description" : "The global pandemic changed the way people live, work, and communicate.",
+    "imageURL" : "/images/covid-19.jpg",
+    "category" : "Health"
+  },
+  {
+    "year" : "2023",
+    "title" : "ChatGPT Goes Mainstream",
+    "description" : "AI language models like chatGPT became widely used for education, work, and entertainment.",
+    "imageURL" : "/images/chatgpt.jpg",
+    "category" : "Technology"
+  }
+]
