@@ -1,18 +1,26 @@
-// src/components/EventMarker.tsx
-import React from "react";
+import React, { forwardRef } from "react";
 import { EventData } from "../types";
 
 interface Props {
   event: EventData;
-  onClick: () => void;
+  onClick: (e: React.MouseEvent<HTMLButtonElement>) => void;
+  isActive: boolean;
 }
 
-const EventMarker: React.FC<Props> = ({ event, onClick }) => {
-  return (
-    <button className="year-btn" onClick={onClick}>
-      {event.year}
-    </button>
-  );
-};
+const EventMarker = forwardRef<HTMLButtonElement, Props>(
+  ({ event, onClick, isActive }, ref) => {
+    return (
+      <button
+        ref={ref}
+        className="year-btn"
+        onClick={onClick}
+        aria-current={isActive ? "step" : undefined}
+        aria-label={`Timeline event ${event.year}: ${event.title}`}
+      >
+        {event.year}
+      </button>
+    );
+  }
+);
 
 export default EventMarker;
